@@ -3,10 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-header {
-    background-color: #012D63;
-}
 a {
     color: #C7C7C7;
+    text-decoration: none;
+    
+    
+}
+nav a:first-child {
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #012D63;
+
+}
+
+nav a {
+    margin: 0 20px;
+}
+
+.languages a:last-child {
+    color: #ffffff;
 }
