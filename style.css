@@ -28,3 +28,19 @@ nav a {
 .languages a:last-child {
     color: #ffffff;
 }
+
+.description-block {
+    background-image: url('./src/img/air.jpg');
+}
+
+.logo-container {
+    padding: 94px 0 40px 0;
+}
+
+h1 {
+font-family: 'Playfair Display';
+font-weight: 400;
+font-size: 144px;
+line-height: 192px;
+color: #FFFFFF;
+}
