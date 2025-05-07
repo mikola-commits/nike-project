@@ -1,46 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 a {
-    color: #C7C7C7;
-    text-decoration: none;
-    
-    
+  color: #c7c7c7;
+  text-decoration: none;
 }
 nav a:first-child {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #012D63;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #012d63;
 }
 
 nav a {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .languages a:last-child {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .description-block {
-    background-image: url('./src/img/air.jpg');
+  background-image: url("./src/img/air.jpg");
 }
 
 .logo-container {
-    padding: 94px 0 40px 0;
+  padding: 94px 0 40px 0;
 }
 
 h1 {
-font-family: 'Playfair Display';
-font-weight: 400;
-font-size: 144px;
-line-height: 192px;
-color: #FFFFFF;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 192px;
+  color: #ffffff;
+}
+
+p {
+  width: 508px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 12px 0 41px 0;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+  color: #ffffff;
+}
+
+.description-block button {
+  width: 254px;
+  height: 67px;
+  background: #8e32c6;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
 }
