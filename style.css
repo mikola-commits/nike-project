@@ -28,6 +28,10 @@ nav a {
 
 .description-block {
   background-image: url("./src/img/air.jpg");
+  padding-left: 156px;
+  padding-bottom: 183px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo-container {
