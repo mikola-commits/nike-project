@@ -64,6 +64,15 @@ h2 {
   color: #ffffff;
 }
 
+h3 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .description-block button {
   width: 254px;
   height: 67px;
@@ -74,4 +83,23 @@ h2 {
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
+}
+
+.services {
+  background-image: url("./src/img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 0;
+}
+
+.services-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.star img,
+.paints img,
+.auto img {
+  width: 240px;
+  height: 240px;
 }
